@@ -25,7 +25,7 @@
                                     <constraint firstAttribute="width" secondItem="QLR-8M-UNI" secondAttribute="height" multiplier="271:30" id="Kad-yj-wQZ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <state key="normal" title="Custome Alert View One Option">
+                                <state key="normal" title="Custom Alert View One Option">
                                     <color key="titleColor" red="0.26809982100000002" green="0.56338820460000005" blue="0.83917885640000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -38,7 +38,7 @@
                                     <constraint firstAttribute="width" secondItem="NVT-ZH-YBM" secondAttribute="height" multiplier="271:36" id="JDn-CZ-0Na"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <state key="normal" title="Custome Alert View Two Option">
+                                <state key="normal" title="Custom Alert View Two Option">
                                     <color key="titleColor" red="0.26809982100000002" green="0.56338820460000005" blue="0.83917885640000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -51,7 +51,7 @@
                                 <color key="textColor" red="0.48152422904968262" green="0.69784212112426758" blue="0.92645150423049927" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Options Examples" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZr-QD-CPG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Options" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZr-QD-CPG">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="102"/>
                                 <color key="backgroundColor" red="0.26809982100000002" green="0.56338820460000005" blue="0.83917885640000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
