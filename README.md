@@ -3,8 +3,8 @@ This is a simple Alert View Controller, you can customise your alerview easy and
 
 ### Implementations
 1. Add to your project CustomAlertView.xib, CustomAlertView.swift, ExtensionVS.swift.
-2. Add to View Controller CustomAlertViewDelegate.
-3. Add the method func alertBack(controller:CustomAlertView, acction:Bool, tag:Int)
+2. Add to your View Controller **CustomAlertViewDelegate**.
+3. Add the method **func alertBack(controller:CustomAlertView, acction:Bool, tag:Int)**
 
 ### How use it?
 Call self.view.**showCustomeAlert**(alertViewType:AlertViewType? = .information, delegate:CustomAlertViewDelegate? = nil, title:String, message:String, tag:Int? = 0)
