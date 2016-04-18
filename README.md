@@ -14,9 +14,9 @@ AlertViewType:
 .information (Blue Header)
 .error (Red Header)
 .caution (Yellow header)
-.question (This option show up two  button Cancel and Acept)
+.question (This option show up two  button Cancel and Accept)
 
-![CustomeAlertView](https://8k5luq.dm2302.livefilestore.com/y3mbSSEXoH2Bcovgdy1rWjJqUEyYyfcDHCtgYiYsksv-Z7YL6VpiR_PeJl0w55Sk97RV6VVq-jFjV1aOuS-fZOxqdRge_Fhx7NG_U5zHL_QkW57ovSzt_bmZS5UsG9lYGYsDX8S34QJmzGZumCj-fN1xp-aYYCcgFA3Q_mvu_RP3JM?width=826&height=600&cropmode=none)
+![CustomeAlertView](https://8a5luq.dm2302.livefilestore.com/y3ml6hLXGIv_ohtgKHDcsbzfQXTefBtqnKbyoEzFH47tGnj_z9a3loM1tgVUuXa0lLXXL-sQILU86Uyon83SSbpr9tT3v1_IbEjmv__jjszi21FHgrCahNEXXi845Vp2TYUYFCVaqVSN-PUnQHYtUy7oIyoReTitfXx-BmOtTmxUBw?width=826&height=600&cropmode=none)
  
 
 ### Support or Contact
