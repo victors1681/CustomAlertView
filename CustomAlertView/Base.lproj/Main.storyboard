@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CustomAlertView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLR-8M-UNI">
+                                <rect key="frame" x="25" y="167" width="325" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="QLR-8M-UNI" secondAttribute="height" multiplier="271:30" id="Kad-yj-wQZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="Custome Alert View One Option">
+                                    <color key="titleColor" red="0.26809982100000002" green="0.56338820460000005" blue="0.83917885640000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="oneOptionBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZZe-aF-PoW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVT-ZH-YBM">
+                                <rect key="frame" x="52" y="221" width="271" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="NVT-ZH-YBM" secondAttribute="height" multiplier="271:36" id="JDn-CZ-0Na"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="Custome Alert View Two Option">
+                                    <color key="titleColor" red="0.26809982100000002" green="0.56338820460000005" blue="0.83917885640000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="twoOptionsBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VVu-wh-Dbx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Victor Santos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWP-l1-9fM">
+                                <rect key="frame" x="80" y="646" width="225" height="21"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <color key="textColor" red="0.48152422904968262" green="0.69784212112426758" blue="0.92645150423049927" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Options Examples" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZr-QD-CPG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="102"/>
+                                <color key="backgroundColor" red="0.26809982100000002" green="0.56338820460000005" blue="0.83917885640000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="102" id="snf-Wc-Lae"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.98398476839065552" green="0.99217706918716431" blue="0.99621230363845825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98398476839065552" green="0.99217706918716431" blue="0.99621230363845825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="rZr-QD-CPG" secondAttribute="trailing" id="I7O-X2-64Q"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WWP-l1-9fM" secondAttribute="bottom" id="Lzv-YT-o6y"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WWP-l1-9fM" secondAttribute="trailing" constant="54" id="NFj-5o-Wia"/>
+                            <constraint firstItem="WWP-l1-9fM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="64" id="XIu-Cu-RsP"/>
+                            <constraint firstItem="QLR-8M-UNI" firstAttribute="top" secondItem="rZr-QD-CPG" secondAttribute="bottom" constant="65" id="b3i-dG-B1Q"/>
+                            <constraint firstItem="rZr-QD-CPG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cYe-Qj-qi1"/>
+                            <constraint firstItem="NVT-ZH-YBM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e32-QK-xkx"/>
+                            <constraint firstItem="QLR-8M-UNI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eq9-PI-Z3U"/>
+                            <constraint firstItem="NVT-ZH-YBM" firstAttribute="top" secondItem="QLR-8M-UNI" secondAttribute="bottom" constant="18" id="mtC-HN-h4W"/>
+                            <constraint firstItem="rZr-QD-CPG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="uVd-ax-iTB"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="449.5" y="427.5"/>
+        </scene>
+    </scenes>
+</document>
