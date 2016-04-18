@@ -16,7 +16,7 @@ AlertViewType:
 .caution (Yellow header)
 .question (This option show up two  button Cancel and Acept)
 
-![CustomeAlertView](https://8k5luq.dm2302.livefilestore.com/y3p6QVF9tpLm4i6JIoybHV0DtGffEOglKB8SVrUqFq1JCdrVdihSzdxaXHDPVjc3HHyi8tRyuCfheWE03XYAWYQUrERvwYuC-_E59auP6L2i8wqDQVfY_1AXO-pmkBwphN4jyj-E3JMstosg551CjNRlwrpQ0hsb900otmQkf2p_X8/customeviewcontrollerTwo.jpg?psid=1)
+![CustomeAlertView](https://8k5luq.dm2302.livefilestore.com/y3mbSSEXoH2Bcovgdy1rWjJqUEyYyfcDHCtgYiYsksv-Z7YL6VpiR_PeJl0w55Sk97RV6VVq-jFjV1aOuS-fZOxqdRge_Fhx7NG_U5zHL_QkW57ovSzt_bmZS5UsG9lYGYsDX8S34QJmzGZumCj-fN1xp-aYYCcgFA3Q_mvu_RP3JM?width=826&height=600&cropmode=none)
  
 
 ### Support or Contact
