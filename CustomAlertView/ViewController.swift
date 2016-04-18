@@ -19,14 +19,14 @@ class ViewController: UIViewController, CustomAlertViewDelegate {
         //Error: Red
         //Question: Blue and Two Options
         
-        self.view.showCustomeAlert(AlertViewType.caution,title:"Ups...", message:"Item no available!")
+        self.view.showCustomeAlert(AlertViewType.caution,title:"Ups...", message:"Item not available!")
         
     }
     
     
     @IBAction func twoOptionsBtn(sender: AnyObject) {
         
-        self.view.showCustomeAlert(AlertViewType.question, delegate: self, title: "Selecte Options", message: "Do you want to preceed?", tag: 200)
+        self.view.showCustomeAlert(AlertViewType.question, delegate: self, title: "Selection Options", message: "Do you want to proceed?", tag: 200)
         
         
     }
@@ -40,7 +40,7 @@ class ViewController: UIViewController, CustomAlertViewDelegate {
         default:
             print("default tag 0")
         }
-        print("Action Acept Button")
+        print("Action Accept Button")
     }
     
     

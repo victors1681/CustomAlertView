@@ -298,6 +298,7 @@
 				576FCE0F1CC4804300C5F793 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
